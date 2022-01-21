@@ -6,7 +6,7 @@ const dino = require("./models/dino.js");
 
 const app = express();
 dotenv.config();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3002;
 
 app.use(express.json());
 app.use(cors());
